@@ -11,6 +11,7 @@ namespace com.vzaar.api
 		ENCODING_UNAVAILABLE = 6, //Encoding Unavailable
 		NOT_AVAILABLE = 7, //n/a
 		REPLACED = 8, //Replaced
-		DELETED = 9 //Deleted
-	}
+		DELETED = 9, //Deleted
+        PREPARING = 11 //Preparing, new status that we (BL) detected. Not failed, comes before AVAILABLE 
+    }
 }
